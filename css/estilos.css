@@ -35,6 +35,10 @@
     margin: 1rem;
 }
 
+.img-icon{
+    max-height: 45px;
+}
+
 .color-1{
     color: rgb(255, 146, 132);
 }
@@ -299,6 +303,21 @@ section.info__principal h1.infocard__titulo{
     padding: 3rem;
 }
 
+.nav-container-2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer{
+    color: antiquewhite;
+}
 
 /*FOOTER (obsoleto)*/
 
