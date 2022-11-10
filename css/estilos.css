@@ -28,13 +28,6 @@
     text-align: right;
 }
 
-.icon{
-    max-height: 6rem;
-    min-width: 8rem;
-    border-radius: 30%;
-    margin: 1rem;
-}
-
 .img-icon{
     max-height: 45px;
 }
@@ -80,7 +73,7 @@
 
 /*HERO*/
 
-.hero__container{
+.principal__3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,12 +139,12 @@
     background-color: antiquewhite;
 }
 
-.infocard--2{
+.infocard__2{
     margin: 2rem 0;
     background-color: bisque;
 }
 
-.infocard--3{
+.infocard__3{
     display: flex;
     flex-direction: column;
     margin: 5rem 0rem;
@@ -184,7 +177,7 @@
 }
 
 .infocard__list{
-    padding: 1.5rem;
+    margin: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -206,6 +199,12 @@
     flex-direction: column;
 }
 
+.infocard__img{
+    max-width: 23vh;
+    min-height: 22vh;
+    border-radius: 30%;
+    margin: 2rem;
+}
 
 
 /*FORMULARIO*/
@@ -339,3 +338,18 @@ section.info__principal h1.infocard__titulo{
     text-decoration: none;
     color: rgba(75, 75, 75, 0.842);
 }*/
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.footer__div1, .footer__div2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    list-style: none;
+}

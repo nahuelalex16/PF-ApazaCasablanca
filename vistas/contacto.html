@@ -53,7 +53,7 @@
                     <h1 class="col-lg-12 banner__titulo">¡CONTACTANOS!</h1>
                     <p class="col-lg-12 banner__subtitulo">¡HACENOS TUS CONSULTAS!</p>
                 </div>
-                <img class="col-lg-5 col-sm-12 banner__img" src="../img/imagen1.jpg" alt="banner">
+                <img class="col-lg-5 col-sm-12" src="../img/imagen1.jpg" alt="banner">
             </div>
         </section>
         <!--FIN BANNER CONTACTO-->
@@ -62,7 +62,7 @@
         <section class="container-fluid bg-form">
             <div class="row">
                 <form action="#" method="get" enctype="text/plain" class="col-lg-7 col-md-12 row">
-                    <div class="row form-container">
+                    <div class="row formulario">
                         <div class="col-lg-6 col-md-12">
                             <label class="badge bg-secondary" for="name">Nombre y Apellido</label><!--el atributo "name" de input y "for" de label deben coincidir-->
                             <input class="form-control form__input" type="text" name="name" id="name" required placeholder="Introduzca su nombre y apellido">
@@ -89,7 +89,7 @@
                 </form>
 
                 <!--GOOGLE MAPS-->
-                <div class="mapouter col-lg-5 col-md-12 form-container"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ciudad%20autonoma%20de%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div class="mapouter col-lg-5 col-md-12 formulario"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ciudad%20autonoma%20de%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </section>
 
@@ -102,29 +102,29 @@
     <!--PIE DE PAGINA-->
 
     <footer>
-        <nav class="container-fluid navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="footer bg-dark navbar-dark">
   
-            <div class="col-md-4 col-sm-12">
-                <p class="text-footer">2022 - Todos los derechos reservados</p>
+            <div class="footer__div1 col-md-4 col-sm-12">
+                <p class="footer__text">2022 - Todos los derechos reservados</p>
             </div>
   
-            <div class="col-md-4 col-sm-12 nav-container-1">
-                <!-- LINKS -->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../vistas/nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../vistas/contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../vistas/pagos_y_envios.html">Pagos y Envíos</a>
-                  </li>
-                </ul>
-              </div>
+            <div class="footer__div1 col-md-4 col-sm-12">
+              <!-- LINKS -->
+              <ul class="footer__div2">
+                <li class="nav-item">
+                  <a class="nav-link" href="../vistas/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../vistas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../vistas/pagos_y_envios.html">Pagos y Envíos</a>
+                </li>
+              </ul>
+            </div>
   
-            <div class="col-md-4 col-sm-12">
-                <ul class="nav nav-container-2">
+            <div class="footer__div1 col-md-4 col-sm-12">
+                <ul class="footer__div2">
                     <li>
                         <a href="https://www.facebook.com"><img class="img-icon" src="../img/icons/facebook.png" alt="facebook"></a>
                     </li>
@@ -138,7 +138,7 @@
             </div>
           
           </nav>
-      </footer>
+    </footer>
 
     <!--FIN PIE DE PAGINA-->  
 

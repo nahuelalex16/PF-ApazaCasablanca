@@ -1,0 +1,50 @@
+/*INFORMACION*/
+
+.infocard{
+    margin: 2rem 0;
+    background-color: antiquewhite;
+
+    &__2{
+        margin: 2rem 0;
+        background-color: bisque;
+    }
+
+    &__3{
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 0rem;
+    }
+
+    &__desc{
+        flex-direction: column;
+        margin-inline-start: 5%;
+        margin-top: 5%;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    &__titulo{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    &__texto{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    &__list{
+        margin: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__img{
+        max-width: 23vh;
+        min-height: 22vh;
+        border-radius: 30%;
+        margin: 2rem;
+    }
+}
+

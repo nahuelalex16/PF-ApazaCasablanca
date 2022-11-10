@@ -1,0 +1,29 @@
+/*BANNER*/
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+    &__info{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: bisque;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    &__titulo{
+        font-size: 4rem;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    &__subtitulo{
+        font-size: 2.5rem;
+        margin: 2rem;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,25 @@
+.principal{
+    margin: 2rem 3rem;
+    padding: 4rem;
+    background: rgba(248, 228, 228, 0.993);
+
+    &__2{
+        padding: 2rem;
+        margin: 2rem 3rem;
+    }
+
+    &__3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        padding: 2rem;
+    }
+
+    &__box{
+        margin: 12rem 4rem;
+        flex-direction: column;
+    }
+
+}

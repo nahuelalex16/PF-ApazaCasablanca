@@ -1,0 +1,22 @@
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+
+    &__div1, &__div2 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        list-style: none;
+    }
+
+    .footer__text{
+        color: antiquewhite;
+    }
+}
+
+

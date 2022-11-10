@@ -1,0 +1,194 @@
+@font-face {
+  font-family: Rofaela;
+  src: url(../recursos/fuentes/Rofaela.otf);
+}
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.header {
+  background: url(../img/fondo_nav2.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+.header__logo {
+  text-decoration: none;
+  font-family: Rofaela;
+  color: whitesmoke;
+  margin-left: 1rem;
+}
+.header__item {
+  padding: 0.5rem 1rem;
+}
+.header__link {
+  text-decoration: none;
+  font-family: verdana;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  border-bottom: whitesmoke 5px;
+}
+
+.principal {
+  margin: 2rem 3rem;
+  padding: 4rem;
+  background: rgba(248, 228, 228, 0.993);
+}
+.principal__2 {
+  padding: 2rem;
+  margin: 2rem 3rem;
+}
+.principal__3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+.principal__box {
+  margin: 12rem 4rem;
+  flex-direction: column;
+}
+
+/*BANNER*/
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.banner__info {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: bisque;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.banner__titulo {
+  font-size: 4rem;
+  margin: 2rem;
+  text-align: center;
+}
+.banner__subtitulo {
+  font-size: 2.5rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+/*INFORMACION*/
+.infocard {
+  margin: 2rem 0;
+  background-color: antiquewhite;
+}
+.infocard__2 {
+  margin: 2rem 0;
+  background-color: bisque;
+}
+.infocard__3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0rem;
+}
+.infocard__desc {
+  flex-direction: column;
+  -webkit-margin-start: 5%;
+          margin-inline-start: 5%;
+  margin-top: 5%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.infocard__titulo {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+.infocard__texto {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.infocard__list {
+  margin: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.infocard__img {
+  max-width: 23vh;
+  min-height: 22vh;
+  border-radius: 30%;
+  margin: 2rem;
+}
+
+.formulario {
+  padding: 1rem;
+}
+.formulario__bg {
+  background-color: whitesmoke;
+  padding: 2rem;
+}
+.formulario__input {
+  margin: 0.5rem;
+  width: 100%;
+}
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+.footer__div1, .footer__div2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+  list-style: none;
+}
+.footer .footer__text {
+  color: antiquewhite;
+}
+
+.btn-mine {
+  font-size: 1.3rem;
+  text-decoration: none;
+  border-bottom: solid 5px burlywood;
+  color: rgba(75, 75, 75, 0.493);
+  margin: 1.5rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.img-icon {
+  max-height: 45px;
+}
+
+.color-1 {
+  color: rgb(255, 146, 132);
+}
+
+#gmap_canvas {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 2.5rem;
+}
+
+section.info__principal h1.infocard__titulo {
+  padding: 5rem;
+}
+
+#bg-info {
+  background: url(../img/fondo_nav2.jpg);
+  padding: 3rem;
+}/*# sourceMappingURL=main.css.map */

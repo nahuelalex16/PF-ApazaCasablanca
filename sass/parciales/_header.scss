@@ -1,0 +1,32 @@
+.header{
+    background: url(../img/fondo_nav2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 00.5rem;
+
+    &__logo{
+        text-decoration: none;
+        font-family: Rofaela;
+        color: whitesmoke;
+        margin-left: 1rem;
+    }
+
+    &__item{
+    padding: 0.5rem 1rem;
+    }
+
+    &__link{
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    border-bottom: whitesmoke 5px;
+    }
+}
+
+
+
+
+
