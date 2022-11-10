@@ -5,7 +5,7 @@
     background-color: antiquewhite;
 
     &__2{
-        margin: 2rem 0;
+        @extend .infocard;
         background-color: bisque;
     }
 

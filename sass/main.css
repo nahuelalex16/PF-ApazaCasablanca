@@ -3,7 +3,7 @@
   src: url(../recursos/fuentes/Rofaela.otf);
 }
 * {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: verdana;
@@ -86,12 +86,11 @@
 }
 
 /*INFORMACION*/
-.infocard {
+.infocard, .infocard__2 {
   margin: 2rem 0;
   background-color: antiquewhite;
 }
 .infocard__2 {
-  margin: 2rem 0;
   background-color: bisque;
 }
 .infocard__3 {
