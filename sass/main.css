@@ -107,10 +107,10 @@
   padding: 1rem;
 }
 .infocard__titulo {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .infocard__texto {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 .infocard__list {
   margin: 1.5rem;
@@ -138,21 +138,22 @@
 }
 
 /*FOOTER*/
-.footer {
+.footer, .footer__div2, .footer__div1 {
   display: flex;
   flex-wrap: wrap;
   width: auto;
   justify-content: center;
 }
-.footer__div1, .footer__div2 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+.footer__div1 {
   align-items: center;
+  justify-content: space-between;
   margin: 1rem 0rem;
-  list-style: none;
 }
-.footer .footer__text {
+.footer__div2 {
+  list-style: none;
+  flex-flow: row nowrap;
+}
+.footer .footer__text, .footer__div1 .footer__text, .footer__div2 .footer__text {
   color: antiquewhite;
 }
 

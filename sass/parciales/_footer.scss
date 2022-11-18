@@ -6,13 +6,17 @@
     width: auto;
     justify-content: center;
 
-    &__div1, &__div2 {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
+    &__div1{
+        @extend .footer;
         align-items: center;
+        justify-content: space-between;
         margin: 1rem 0rem;
+    }
+
+    &__div2{
+        @extend .footer;
         list-style: none;
+        flex-flow: row nowrap;
     }
 
     .footer__text{
