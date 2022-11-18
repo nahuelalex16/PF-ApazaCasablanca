@@ -2,7 +2,11 @@
 
 .infocard{
     margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
     background-color: antiquewhite;
+    padding: 1rem;
 
     &__2{
         @extend .infocard;
@@ -16,21 +20,19 @@
     }
 
     &__desc{
-        flex-direction: column;
-        margin-inline-start: 5%;
-        margin-top: 5%;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    &__titulo{
-        font-size: 2.5rem;
+        display: flex;
+        flex-flow: wrap row;
+        align-content:space-around;
+        align-items: center;
         padding: 1rem;
     }
 
+    &__titulo{
+        font-size: 3.5rem;
+    }
+
     &__texto{
-        font-size: 1.5rem;
-        padding: 0.5rem;
+        font-size: 2rem;
     }
 
     &__list{

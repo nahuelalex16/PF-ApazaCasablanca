@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     width: auto;
+    justify-content: center;
 
     &__div1, &__div2 {
         display: flex;

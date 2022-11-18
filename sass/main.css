@@ -14,7 +14,6 @@
 }
 
 .header {
-  background: url(../img/fondo_nav2.jpg);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,7 +87,11 @@
 /*INFORMACION*/
 .infocard, .infocard__2 {
   margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
   background-color: antiquewhite;
+  padding: 1rem;
 }
 .infocard__2 {
   background-color: bisque;
@@ -99,20 +102,17 @@
   margin: 5rem 0rem;
 }
 .infocard__desc {
-  flex-direction: column;
-  -webkit-margin-start: 5%;
-          margin-inline-start: 5%;
-  margin-top: 5%;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-.infocard__titulo {
-  font-size: 2.5rem;
+  display: flex;
+  flex-flow: wrap row;
+  align-content: space-around;
+  align-items: center;
   padding: 1rem;
 }
+.infocard__titulo {
+  font-size: 3.5rem;
+}
 .infocard__texto {
-  font-size: 1.5rem;
-  padding: 0.5rem;
+  font-size: 2rem;
 }
 .infocard__list {
   margin: 1.5rem;
@@ -144,6 +144,7 @@
   display: flex;
   flex-wrap: wrap;
   width: auto;
+  justify-content: center;
 }
 .footer__div1, .footer__div2 {
   display: flex;
@@ -162,7 +163,6 @@
   text-decoration: none;
   border-bottom: solid 5px burlywood;
   color: rgba(75, 75, 75, 0.493);
-  margin: 1.5rem;
 }
 
 .text-right {
