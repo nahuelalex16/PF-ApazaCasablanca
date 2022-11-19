@@ -3,14 +3,12 @@
 .footer{
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    align-items: center;
     justify-content: center;
 
     &__div1{
         @extend .footer;
-        align-items: center;
-        justify-content: space-between;
-        margin: 1rem 0rem;
+        margin: 1rem 0;
     }
 
     &__div2{

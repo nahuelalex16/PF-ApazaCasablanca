@@ -38,13 +38,13 @@
 }
 
 .principal {
-  margin: 2rem 3rem;
-  padding: 4rem;
+  margin: 1.5rem 1rem;
+  padding: 2rem;
   background: rgba(248, 228, 228, 0.993);
 }
 .principal__2 {
   padding: 2rem;
-  margin: 2rem 3rem;
+  margin: 1rem 1.5rem;
 }
 .principal__3 {
   display: flex;
@@ -52,7 +52,7 @@
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 5rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 .principal__box {
   margin: 12rem 4rem;
@@ -74,12 +74,12 @@
   padding: 2rem;
 }
 .banner__titulo {
-  font-size: 4rem;
+  font-size: 8vmin;
   margin: 2rem;
   text-align: center;
 }
 .banner__subtitulo {
-  font-size: 2.5rem;
+  font-size: 7vmin;
   margin: 2rem;
   text-align: center;
 }
@@ -99,6 +99,12 @@
   flex-direction: column;
   margin: 5rem 0rem;
 }
+.infocard__titulo {
+  font-size: 6vmin;
+}
+.infocard__text {
+  font-size: 4vmin;
+}
 .infocard__desc {
   display: flex;
   flex-flow: wrap row;
@@ -106,11 +112,8 @@
   align-items: center;
   padding: 1rem;
 }
-.infocard__titulo {
-  font-size: 3rem;
-}
 .infocard__texto {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 .infocard__list {
   margin: 1.5rem;
@@ -141,13 +144,11 @@
 .footer, .footer__div2, .footer__div1 {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
+  align-items: center;
   justify-content: center;
 }
 .footer__div1 {
-  align-items: center;
-  justify-content: space-between;
-  margin: 1rem 0rem;
+  margin: 1rem 0;
 }
 .footer__div2 {
   list-style: none;
@@ -158,7 +159,7 @@
 }
 
 .btn-mine {
-  font-size: 1.3rem;
+  font-size: 4.5vmin;
   text-decoration: none;
   border-bottom: solid 5px burlywood;
   color: rgba(75, 75, 75, 0.493);
@@ -177,16 +178,10 @@
 }
 
 #gmap_canvas {
-  width: 30rem;
-  height: 30rem;
-  margin-right: 2.5rem;
+  width: 40vmax;
+  height: 35vmax;
 }
 
 section.info__principal h1.infocard__titulo {
   padding: 5rem;
-}
-
-#bg-info {
-  background: url(../img/fondo_nav2.jpg);
-  padding: 3rem;
 }/*# sourceMappingURL=main.css.map */
